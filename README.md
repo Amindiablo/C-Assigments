@@ -34,14 +34,13 @@ int main() {
     cout << "Average: " << calculateAverage(numbers, size) << "\n";
     
     Person people[] = {
-        {"Reza", "Moghaddam", 25}, {"Sara", "Ahmadi", 30}, {"Ali", "Ranjbar", 22},
-        {"Shayan", "Kazemi", 28}, {"Mina", "Sadeghi", 24}, {"Neda", "Rahimi", 35},
-        {"Ailin", "Hosseini", 21}, {"Arian", "Jafari", 27}, {"Foad", "Moradi", 29},
-        {"Rozhina", "Khanlari", 26}
+        {"Amin", "Oveisi", 20}, {"Ali", "Younesi", 20}, {"Mehdi", "Aminian", 20},
+        {"Hadi", "Zeinkouhi", 51}, {"sohan", "Nazem Razavi", 20}, {"Reza", "Abdollahi", 20},
+        {"Parham", "Maleki", 19}, {"arian", "zinkoohi", 22}, {"Pasa", "Someh", 22}
     };
-    int ages[10];
-    for (int i = 0; i < 10; i++) ages[i] = people[i].age;
-    cout << "Average Age: " << calculateAverage(ages, 10) << " Years Old\n";
+    int ages[9];
+    for (int i = 0; i < 9; i++) ages[i] = people[i].age;
+    cout << "Average Age: " << calculateAverage(ages, 9) << " Years Old\n";
     
     int randomNumbers[] = {44, 55, 68, 298, 43, 10, 2};
     int numSize = sizeof(randomNumbers) / sizeof(randomNumbers[0]);
