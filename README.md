@@ -36,7 +36,7 @@ int main() {
     Person people[] = {
         {"Amin", "Oveisi", 20}, {"Ali", "Younesi", 20}, {"Mehdi", "Aminian", 20},
         {"Hadi", "Zeinkouhi", 51}, {"sohan", "Nazem Razavi", 20}, {"Reza", "Abdollahi", 20},
-        {"Parham", "Maleki", 19}, {"arian", "zinkoohi", 22}, {"Pasa", "Someh", 22}
+        {"Parham", "Maleki", 19}, {"arian", "zinkoohi", 22}, {"Parsa", "Someh", 22}
     };
     int ages[9];
     for (int i = 0; i < 9; i++) ages[i] = people[i].age;
